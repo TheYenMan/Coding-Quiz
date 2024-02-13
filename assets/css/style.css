@@ -1,0 +1,87 @@
+:root {
+    --pink: #c046d0;
+    --purple: #713371;
+    --light: #fff;
+    --grey: grey;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section { 
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+h1 {
+    align-self: center;
+}
+button {
+    border: none;
+    border-radius: 5px;
+    font-family: "Lucida Grande";
+    font-size: 1.25rem;
+    text-decoration: none;
+    padding: 0.1rem;
+
+}
+button:hover{
+    background: var(--purple);
+}
+a{
+    text-decoration: none;
+}
+.high-score {
+    background: var(--pink);
+    color: var(--light);
+    margin: .2rem;
+}
+.startBtn {
+    color: var(--light);
+    background: var(--grey);
+    width: fit-content;
+    align-self: center;
+    display: flex;
+}
+.saveBtn{
+    color: var(--light);
+    background: var(--grey);
+    width: fit-content;
+    align-self: center;
+    display: flex;
+    text-decoration: none;
+}
+.answerBtn, .saveBtn {
+    margin: .5rem;
+}
+
+#countdown {
+    font-size: 1rem;
+}
+
+.feedback {
+    color: green;
+    font-size: 1rem;
+    font-style: italic;
+}
+.incorrect{
+    color: red;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
